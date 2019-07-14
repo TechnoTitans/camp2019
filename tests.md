@@ -1,11 +1,11 @@
 # Tests
 
 ## Beginner
-* Beginner 1 — Not Tested
-* Beginner 2 — Not Tested
-* Beginner 3 — Not Tested
-* Beginner 4 — Not Tested
-* Beginner 5 — Not Tested
+* Beginner 1 — PASS ✔
+* Beginner 2 — PASS ✔
+* Beginner 3 — PASS ✔
+* Beginner 4 — PASS ✔
+* Beginner 5 — PASS ✔
 
 
 ## Intermediate
