@@ -1,9 +1,9 @@
-#include <Servo.h> // This line allows us to use the Servo object
+#include <Servo.h> // This line allows us to use the Servo object (basically the library or software)
 
 
-const int servoPin = 11; // PWM pin for the servo
+int servoPin = 11; // CHECK PWM pin for the servo
 
-Servo servo;
+Servo servo; // Instantiate servo object (don't worry too much about it, think of it as just setting up the servo library)
 
 
 void setup()
@@ -13,5 +13,5 @@ void setup()
 
 void loop()
 {
-  servo.write(50); // [blank] try experimenting with different angles 
+  servo.write(/* [blank] */); // [blank] try experimenting with different angles 
 }
