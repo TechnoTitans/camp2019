@@ -10,7 +10,7 @@ void setup() {
   Serial.print(myAge);
 	Serial.println("/*[blank]*/"); // [blank] what should go between the two strings?
 	Serial.println("My name is ");
-  Serial.print(/*[blank]*/); // [blank] how would you print your name here? (Hint: use the variable)
+  Serial.print("/*[blank]*/"); // [blank] how would you print your name here? (Hint: use the variable)
 }
 
 void loop() {

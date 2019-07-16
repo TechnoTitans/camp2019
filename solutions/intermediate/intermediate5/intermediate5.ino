@@ -1,5 +1,6 @@
 // [blank] fill in the array with your first four favorite
 // [blank] try changing the colors as well
+// IMPORTANT: Make sure you put commas between each string
 String favoriteColors[4] = {
 	"Blue", "Red", "Green", "Purple"
 };
