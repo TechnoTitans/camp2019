@@ -9,23 +9,16 @@
 
 
 ## Intermediate
-* Intermediate 1 — Not Tested
-* Intermediate 2 — Not Tested
-* Intermediate 3 — Not Tested
-* Intermediate 4 — Not Tested
-* Intermediate 5 — Not Tested
+* Intermediate 1 — PASS ✔
+* Intermediate 2 — PASS ✔
+* Intermediate 3 — PASS ✔
+* Intermediate 4 — PASS ✔
+* Intermediate 5 — PASS ✔
 
 ## Advanced
-* Advanced a — Not Tested
-* Advanced b — Not Tested
-* Advanced c — Not Tested
-* Advanced d — Not Tested
-* Advanced e — Not Tested
-* Advanced f — Not Tested
-* Advanced g — Not Tested
-* Advanced h — Not Tested
-
-
-## Mastery
-* Mastery Project 1 — Not Tested
-* Mastery Project 2 — Not Tested
+* Advanced a — PASS ✔
+* Advanced b — PASS ✔
+* Advanced c — PASS ✔
+* Advanced d — PASS ✔
+* Advanced e — PASS ✔
+* Advanced f — PASS ✔

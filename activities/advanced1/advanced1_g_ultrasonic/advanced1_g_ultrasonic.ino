@@ -10,13 +10,14 @@ void setup()
 	Serial.begin(9600);
 	pinMode(triggerPin, OUTPUT);
 	pinMode(echoPin, INPUT);
-	digitalWrite(trigPin, LOW);
+	digitalWrite(triggerPin, LOW);
 }
 
 void loop()
 {
 	currentDistance = readDistance(); // [blank] how do we update the current distance with the provided magic code?
-	Serial.print("The Current Distance is: " + currentDistance);
+	Serial.print("The Current Distance is: ");
+  Serial.println(currentDistance);
 }
 
 
@@ -42,6 +43,3 @@ unsigned int readDistance()
   unsigned long period = pulseIn(echoPin, HIGH);
   return period * 343 / 2000;
 }
-
-
-

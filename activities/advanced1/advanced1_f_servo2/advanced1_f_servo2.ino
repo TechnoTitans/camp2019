@@ -5,10 +5,10 @@ const int servoPin = 11; // PWM pin for the servo
 const int maxAngle = 90; // the servo can only rotate up to +90 degrees
 const int minAngle = -90; // or -90 degrees
 
-int angle = -90;	// this variable will keep track of the current angle of our servo
+int angle = 0;	// this variable will keep track of the current angle of our servo
 					// in this case we are going to start off at -90
 
-Servo myServo;
+Servo servo;
 
 void setup()
 {
@@ -17,6 +17,7 @@ void setup()
 
 void loop()
 {
-	angle += 5; // [blank] what do we do to the angle so that it changes over time?
-	servo.write(angle);
+	angle = angle + 5; // [blank] what do we do to the angle so that it changes over time?
+	servo.write(angle);  
+  delay(100);
 }

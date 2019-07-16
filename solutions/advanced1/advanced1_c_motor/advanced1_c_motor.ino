@@ -3,7 +3,7 @@ const int motorPin2 = 4;
 const int motorEnable = 3;
 
 void setup() {
-   // set both of the motor pins to outputs
+//    set both of the motor pins to outputs
    pinMode(motorPin1, OUTPUT);
    pinMode(motorPin2, OUTPUT);
    pinMode(motorEnable, OUTPUT);
@@ -14,8 +14,8 @@ void loop()
 {
   digitalWrite(motorPin1, HIGH);
   digitalWrite(motorPin2, LOW);
-  analogWrite(motorEnable, 255); // analogWrite value range: [0-255]
+  digitalWrite(motorEnable, HIGH);
   delay(2000);
-  analogWrite(motorEnable, 0);
+  digitalWrite(motorEnable, LOW);
   delay(2000);
 }

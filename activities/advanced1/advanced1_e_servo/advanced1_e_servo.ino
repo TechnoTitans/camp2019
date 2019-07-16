@@ -3,7 +3,7 @@
 
 const int servoPin = 11; // PWM pin for the servo
 
-Servo myServo;
+Servo servo;
 
 
 void setup()
@@ -13,5 +13,5 @@ void setup()
 
 void loop()
 {
-  servo.write(90); // [blank] try experimenting with different angles 
+  servo.write(50); // [blank] try experimenting with different angles 
 }

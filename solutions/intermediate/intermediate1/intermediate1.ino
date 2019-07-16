@@ -1,4 +1,4 @@
-int temperature = 12342; // [blank] Try changing the value to see what happens
+int temperature = 24; // [blank] Try changing the value to see what happens
 
 
 void setup()
