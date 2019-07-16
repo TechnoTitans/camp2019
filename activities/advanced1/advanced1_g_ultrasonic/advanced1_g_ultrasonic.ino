@@ -1,13 +1,13 @@
 // these two pins are required for the ultrasonic sensor to work
-const int triggerPin = 13;
-const int echoPin = 12;
+int triggerPin = 13;
+int echoPin = 12;
 
 // don't worry about what unsigned means, treat this like any other int
 unsigned int currentDistance = 0; // variable to keep track of the distance ultrasonic sensor recorded
 
 void setup()
 {
-	Serial.begin(9600);
+	/* [blank] */ // blank how do we start serial??
 	pinMode(triggerPin, OUTPUT);
 	pinMode(echoPin, INPUT);
 	digitalWrite(triggerPin, LOW);
@@ -15,9 +15,9 @@ void setup()
 
 void loop()
 {
-	currentDistance = readDistance(); // [blank] how do we update the current distance with the provided magic code?
+	currentDistance = /* [blank] */; // [blank] how do we update the current distance with the provided magic code?
 	Serial.print("The Current Distance is: ");
-  Serial.println(currentDistance);
+  Serial.println(/* [blank] */); // blank how do we print current distance?
 }
 
 
